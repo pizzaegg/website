@@ -1,0 +1,198 @@
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 11%;
+    margin-bottom: 2%;
+}
+
+.h1{
+    text-align: center;
+}
+.row{
+    display:flex;
+    max-width: 50%;
+  
+    height: auto;
+
+}
+
+.column{
+    flex: 50%;
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+}
+
+td img{
+    width: 300px;
+    transition: 0.3s;
+}
+
+
+.title {
+    width:30;
+    color:#880c4f;
+    font-family:'Lucida Sans';
+    font-size:20px;
+    text-align: center;
+    text-shadow:1px 1px grey;
+    margin:0 auto;
+}
+
+.titlesub {
+
+    width:100;
+    columns: #000000;
+    color:#880c4f;
+    font-family:'Lucida Sans';
+    text-shadow:1px 1px grey;
+    font-size:18px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.center{ 
+    font-family: impact, sans-serif;
+    width:80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ th{
+    font-size:30px;
+    text-align:center;
+    background-color: #880c4f;
+ }
+ 
+ td{
+     font-size: larger;
+     text-align: center;
+     font-size:25px;
+ }
+
+ .menutitle {
+     font:white;
+    }
+
+    
+.topnav ul a {
+    background-color:#00796b;
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.topnav ul a:hover {
+    background-color: #0f4841;
+}
+
+.topnav li .active {
+    background-color: #0f4841;
+}
+
+.topnav li { 
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+.topnav {
+    text-align: center;
+    display: inline;
+}
+
+.pizzahome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    opacity: 90%;
+    position: relative;
+}
+
+.pizzahome img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.pizza-button {
+    background-color: #880c4f;
+    border-radius: 12px;
+    color: white;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 15%;
+    width: 35%;
+    font-size:medium;
+}
+
+.order-button {
+    background-color: #880c4f;
+    border-radius: 12px;
+    color: white;
+    font-size:large;
+    display: inline;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+ a:hover {
+     background-color: #555;
+ }
+ 
+ a:active {
+     background-color: black;
+ }
+
+ .contact-us span{
+    display: block;
+ }
+ .contact-us {
+     margin-right: auto;
+     margin-left: auto;
+     width: 80%;
+     text-align: left;
+     font-size:30px;
+     font-family:'Lucida Sans';
+     margin:0 auto;
+     background-color: violet;
+     padding-bottom:2.5%;
+     
+ }
+
+ @media only screen and (max-width: 600px) {
+    a {
+        background-color: lightblue;
+    }}
+    
+
+ @media only screen and (max-width :400px) {
+.menuitem {
+    width:100%
+}}
+.footer {
+    text-align: center;
+}
